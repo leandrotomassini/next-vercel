@@ -1,26 +1,23 @@
-import { Inter } from 'next/font/google'
+import NextLink from 'next/link';
 
-import { MainLayout } from '../components/layouts/MainLayout'
+import { Inter } from 'next/font/google';
+import { MainLayout } from '../components/layouts/MainLayout';
 
 const inter = Inter({ subsets: ['latin'] })
 
-import Link from 'next/link';
-
-export default function HomePage() {
+export default function Home() {
   return (
     <MainLayout>
-      <h1>Home page</h1>
-
-      <h1 className={'title'}>
-        <Link href="/">Ir a Home</Link>
+      <h1 className="title">
+        Ir a
+        <NextLink href="/about">
+          About
+        </NextLink>
       </h1>
 
-      <div className={'description'}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={'code'}>pages/index.js</code>
-        </p>
-      </div>
+      <h1>Home Page</h1>
+
+      <p className={'code'}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa dolor reiciendis eos ut ab cumque. Illo amet, quidem vel velit quam voluptatem hic possimus nam modi sed. Delectus, adipisci vitae?</p>
     </MainLayout>
   )
 }
