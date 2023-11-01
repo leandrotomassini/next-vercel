@@ -1,5 +1,5 @@
 {
-  "name": "initial-demo",
+  "name": "02-pokeapp",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,15 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@nextui-org/react": "1.0.2-beta.2",
+    "axios": "^1.6.0",
+    "canvas-confetti": "^1.9.0",
+    "framer-motion": "^10.16.4",
     "next": "14.0.0",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
-    "@types/node": "^20.8.9",
-    "@types/react": "^18.2.33",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.0",
-    "typescript": "^5.2.2"
+    "@types/canvas-confetti": "^1.6.2",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
   }
 }
