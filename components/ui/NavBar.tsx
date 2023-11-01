@@ -31,7 +31,7 @@ export const NavBar = () => {
                 display: 'flex'
             }}>
                 <Text color='white' h2>P</Text>
-                <Text color='white' h3>okémon!</Text>
+                <Text color='white' h3>okémon</Text>
             </NextLink>
 
             <Spacer css={{ flex: 1 }} />
